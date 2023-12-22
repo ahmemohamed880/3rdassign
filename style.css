@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(118, 118, 118);
+  
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 70px;
+    padding: 30px;
+    border-bottom: 3px dotted black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    font-size: 25px;
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 500;
+  font-family: 'Righteous';
+}
+
+img{
+    width: 30px;
+}
+
+.x p{
+    border-bottom: 3px dotted black;
+}
+
+button img{
+    width: 20px;
+    margin: 2px;
+}
+
+ h1::after {
+    content: " |";
+    animation-name: typing;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;}
+
+@keyframes typing{
+    0%{content: " |";}
+    4%{content: " b|";}
+    8%{content: " bo|";}
+    12%{content: " boo|";}
+    16%{content: " book|";}
+    20%{content: " bookm|";}
+    24%{content: " bookma|";}
+    28%{content: " bookmar|";}
+    32%{content: " bookmark|";}
+    36%{content: " bookmarke|";}
+    40%{content: " bookmarker|";}
+    44%{content: " bookmarke|";}
+    48%{content: " bookmark|";}
+    52%{content: " bookmar|";}
+    56%{content: " dbookma|";}
+    60%{content: " bookm|";}
+    64%{content: " book|";}
+    68%{content: " boo|";}
+    72%{content: " bo|";}
+    76%{content: " b|";}
+}
+

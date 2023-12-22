@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+        <body> 
+          <div class="w-75 m-auto">
+                <h1 class="text-center" class="test""></h1>
+              <p class="text-center" > <img src="save.webp" alt="" class="test"> Bookmark your favorite sites <img src="save.webp" alt="" class="test"> </p>
+                <img src="save.webp" alt="">
+                <label class="fw-bolder">Site name</label>
+                <input type="text" id="sname" class="form-control" placeholder="Bookmark Name">
+                <label class="fw-bolder"><img src="test.png" class="m-1"> URL</label>
+                <input type="text" id="URL" class="form-control " placeholder="Website URl" oninput="validate()">
+                <div id="urlmsg" class="bg-danger d-none">Enter correct URl</div>
+           <center><button class="btn btn-danger btn-lg m-3" onclick="add()"> submit</button></center>
+           <div class="x"> <p> </p></div>
+
+           <table class="table">
+            <thead>
+                <th>index</th>
+                <th>WebSite Name</th>
+                <th>link</th>
+                <th>Visit</th>
+                <th>Delete</th>
+            </thead>
+            <tbody id="tb">
+               
+              
+            </tbody>
+           </table>
+            </div>
+            <script src="main.js"></script>
+        </body>
+    </head>
+</html>
